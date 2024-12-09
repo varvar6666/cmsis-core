@@ -31,7 +31,7 @@ This **cmsis_core** MCU component repository is one element **common to all** ST
 > Starting from version `5.1.0`, a `Core_A/Include` directory has been introduced to support Cortex-A cores. However, this has no impact on Cortex-M-based user applications.
 
 > [!IMPORTANT]
-> Starting from version `5.8.0`, Arm **removed** the precompiled **DSP** libraries from the `./DSP/Lib` subdirectory.
+> Starting from version `5.8.0`, Arm **removed** the precompiled **DSP** libraries from the `./DSP/Lib` subdirectory and moved them to [this](https://github.com/ARM-software/CMSIS-DSP) dedicated repository.
 
 > [!IMPORTANT]
 > During the successive deliveries from ARM Limited, an update has been introduced with version `5.0`. **A break** of directory tree compatibility has been introduced: the files under the `./Include` directory have been moved to anoter directory, `./Core/Include`.
